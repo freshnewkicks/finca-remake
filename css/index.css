@@ -4,6 +4,15 @@
     padding: 0;
 }
 
+@keyframes sizeUp {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
 #hero-banner {
     width: 100%;
 }
@@ -45,6 +54,20 @@
     top: -2rem;
     left: 5rem;
 }
+
+#icon-block {
+    height: 1rem;
+}
+
+.icon-block img {
+    height: 100px;
+}
+
+.icon-block img:hover {
+    animation: 0.3s linear sizeUp;
+    animation-fill-mode: forwards;
+}
+
 .right{
     color: white;
 }
