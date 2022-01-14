@@ -13,6 +13,7 @@
     }
 }
 
+
 #hero-banner {
     width: 100%;
 }
@@ -21,18 +22,28 @@
 #news,
 #nav_list li a{
     color: white;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 #nav-mobile li a:hover {
     background: #f58426;
 }
 
+
 #nav-mobile_bottom li a {
     color: white;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 #nav-mobile_bottom li:hover {
     background: #f58426;
+}
+
+#donate_btn {
+    background: #f58426;
+    width: 100px;
 }
 
 
@@ -48,15 +59,12 @@
     background-repeat: no-repeat;
     background-position: top;
 }
+
 #logo {
     position: relative;
     height: 6rem;
     top: -2rem;
     left: 5rem;
-}
-
-#icon-block {
-
 }
 
 .icon-block img {
@@ -96,7 +104,7 @@
 
 #our-work_list span{
     padding-top: 2rem;
-    font-size: 26px;
+    font-size: 15px;
 }
 
 #impact_list {
@@ -190,6 +198,7 @@
 .hidden {
     visibility: hidden;
     bottom: 1rem;
+
 }
 @media screen and (max-width: 768px){
     @keyframes dropdown {
@@ -201,6 +210,10 @@
             visibility: visible;
             bottom: -2rem;
         }
+    }
+
+    #bottom-parallax_container {
+        min-height: 215px;
     }
     #logo {
         left: 0;
@@ -222,18 +235,29 @@
         width: 30px;
         margin-right: 15px;
     }
+
+    #index-banner {
+        min-height: 125px;
+    }
+
+    #final-body__container {
+        height: 1rem;
+    }
     .show {
         display: none;
+
     }
 
     .hidden {
         animation: 2s linear dropdown;
         animation-fill-mode: forwards;
+
     }
 
     .hidden li a {
         background: #f58426;
         font-size: 18px;
         color: white;
+
     }
 }
