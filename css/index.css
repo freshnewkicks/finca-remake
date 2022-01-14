@@ -243,6 +243,11 @@
     #final-body__container {
         height: 1rem;
     }
+
+
+    #final-body__container .header {
+        font-size: 20px;
+    }
     .show {
         display: none;
 
