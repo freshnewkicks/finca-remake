@@ -68,6 +68,32 @@
     animation-fill-mode: forwards;
 }
 
+.page-footer {
+    background: #C62828;
+}
+
+#page-footer__row{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#footer-list__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#footer-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-list li {
+}
 .right{
     color: white;
 }
@@ -89,6 +115,14 @@
     }
     #logo {
         left: 0;
+    }
+
+    #footer-list {
+        flex-direction: column;
+    }
+
+    #footer-list:after {
+        content: '';
     }
     .show {
         display: none;
