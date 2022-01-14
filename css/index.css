@@ -126,6 +126,26 @@
     text-align: center;
 }
 
+#final-body__container {
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#final-body__child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#final-body__child .row a{
+    width: 15rem;
+    font-size: 26px;
+}
+
 #footer-social_list-container {
     display: flex;
     margin-top: 35px;
